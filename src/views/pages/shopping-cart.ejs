@@ -1,0 +1,27 @@
+<%- include('../fragments/header.ejs') %>
+
+  <div class="basketModal" id="basketModal">
+    <div class="basketModal__inner">
+      <a href="/" class="popup_close">X</a>
+      <div class="basketModal__basket">Ваш заказ:</div>
+      <div class="basketModal__items">
+        <div class="basketModal__item">Название:</div>
+        <div class="basketModal__item">Цена:</div>
+    </div>
+      <div class="basketModal__box">
+        <div class="basketModal__box-item" id="basketModal-item">
+          <div class="placeitems">
+            <% products.forEach(product=> { %>
+              <div class="basketModal__box-name"><%= product.name %></div>
+              <div class="basketModal__box-price"><%= product.price %>руб.</div>
+              <% }) %>
+              </div>
+          </div>
+        </div>
+        </span>
+          <button class="button-push button button-active">Оформить заказ</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>

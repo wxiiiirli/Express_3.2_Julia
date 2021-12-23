@@ -1,0 +1,263 @@
+body {
+  background-color: #ffebf6;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: Forum;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 380%;
+  color: #c77f9b;
+}
+h2{
+  font-family: Forum;
+  font-size: 100%;
+}
+h3 {
+  font-family: Forum;
+  font-weight: bolder;
+  font-size: 120%;
+  text-align: center;
+}
+.name-card {
+  font-family: Forum;
+  font-weight: bolder;
+  font-size: 150%;
+  text-align: center;
+}
+.img-header {
+  margin-top: -30px;
+}
+.price-card {
+  font-family: Forum;
+  font-weight: bolder;
+  font-size: 120%;
+  text-align: center;
+  color: #242424;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.top-a {
+  text-decoration: none;
+  font-size: 140%;
+  color: #000000;
+  font-family: Forum;
+  font-weight: bolder;
+  margin-left: 45px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main {
+  background-color: #f3e9ec;
+}
+header {
+  background-color: #ffebf6;
+  height: 90px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background-color: #ffebf6;
+}
+
+.button {
+  border: 2px solid #b17291;
+  background-color: #c77f9b;
+  color: rgb(255, 255, 255);
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: 6 auto;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #c77f9b;
+  background-color: rgb(255, 255, 255);
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
+.img-footer {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+.img-card {
+  height: 500px;
+  width: 500px;
+}
+
+.button-buy {
+  border: 2px solid #b17291;
+  background-color: #c77f9b;
+  color: rgb(255, 255, 255);
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: 6 auto;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+
+.button-buy:hover {
+  color: #c77f9b;
+  background-color: rgb(255, 255, 255);
+}
+
+.cards {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.product {
+  border: 2px solid rgb(96, 1, 60);
+  object-fit: cover;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  flex: 0 0 25%;
+  border-spacing: 20px 20px;
+  margin: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.basketModal {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.basketModal.active {
+  display: flex;
+}
+
+.basketModal__inner {
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 60%;
+  padding: 50px;
+  background-color: #f3e9ec;
+  box-shadow: 0 0 20px 0px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basketModal__basket {
+  font-family: Forum;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.basketModal__items {
+  position: relative;
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: Forum;
+}
+
+.basketModal__box {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.basketModal__box-item {
+  margin-bottom: 1rem;
+  justify-content: space-around;
+}
+
+.placeitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-family: Forum;
+}
+.placeitems div:nth-of-type(1n) {
+  text-align: center;
+  padding-bottom: 1rem;
+  width: 60%;
+}
+.placeitems div:nth-of-type(2n) {
+  text-align: center;
+  padding-bottom: 1rem;
+  width: 40%;
+}
+.basketModal__order-btn {
+  cursor: pointer;
+}
+
+.basketModal-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.basketModal-btn__close {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_close {
+  text-decoration: none;
+  font-size: 150%;
+  color: #2f0916;
+  font-family: Forum;
+  font-weight: bolder;
+  margin-left: 90%;
+  cursor: pointer;
+}

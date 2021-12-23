@@ -1,0 +1,20 @@
+<main>
+    <hr align="center" size="2" color="#b17291" />
+    <div class="cards">
+      <% products.forEach(product=> { %>
+      <div id="card-template" id="<%=product.id%>" product-data="<%=JSON.stringify(product)%>">
+        
+        <div class="product">
+          <img class="img-card" src="<%=product.img %>" />
+          <div class="name-card"><%= product.name %></div>
+          <div class="price-card">₽<%= product.price %></div>
+          
+          <button class="button-buy button-active-buy">Купить</button>
+  
+        </div>
+        
+      </div>
+      <% }) %>
+    </div>
+    <hr align="center" size="3" color="#b17291" />
+  </main>

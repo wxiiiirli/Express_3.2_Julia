@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "img": "https://ia.wampi.ru/2021/10/17/coins_sm12new1-1000x1000-removebg-preview.png",
+      "name": "Серьги 'Coins'",
+      "price": 5000
+    },
+  
+    {
+      "id": 2,
+      "img": "https://ia.wampi.ru/2021/10/10/IMG_140721-5sm-1000x1000-removebg-preview.png",
+      "name": "Кольцо 'Sixth Sense'",
+      "price": 8500
+    },
+  
+    {
+      "id": 3,
+      "img": "https://ic.wampi.ru/2021/10/10/a3598b4e552c6fd60173de9884e4a8b1-1000x1000-removebg-preview.png",
+      "name": "Брошь 'Smoky pink'",
+      "price": 6000
+    },
+  
+    {
+      "id": 4,
+      "img": "https://ia.wampi.ru/2021/10/10/IMG_9539sm1-1000x1000-removebg-preview.png",
+      "name": "Кольцо с бирюзой 'Navy'",
+      "price": 7500
+    },
+  
+    {
+      "id": 5,
+      "img": "https://ia.wampi.ru/2021/10/10/9090-1000x1000-removebg-preview.png",
+      "name": "Серьги 'Sun Druzy'",
+      "price": 7000
+    },
+  
+    {
+      "id": 6,
+      "img": "https://ia.wampi.ru/2021/10/10/7e0a4f43f2020f225224df09cbbb7e95-1000x1000-removebg-preview.png",
+      "name": "Колье 'Freshness'",
+      "price": 10300
+    },
+  
+    {
+      "id": 7,
+      "img": "https://ia.wampi.ru/2021/10/17/2314sm-1000x1000-removebg-preview.png",
+      "name": "Браслет 'Energy'",
+      "price": 6000
+    },
+  
+    {
+      "id": 8,
+      "img": "https://ia.wampi.ru/2021/10/17/f23fba6c6fc03beb8e78310820123de2-1000x1000-removebg-preview.png",
+      "name": "Кольцо 'Drops'",
+      "price": 8500
+    },
+
+    {
+        "id": 9,
+        "img": "https://ia.wampi.ru/2021/10/17/890-1000x1000-removebg-preview.png",
+        "name": "Серьги 'Spiral Flow'",
+        "price": 4000
+    }
+  ]
+
